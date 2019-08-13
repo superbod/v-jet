@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+}
+
+.header {
+    background-color: #3a7772;
+    height: 100px;
+}
+.header-text {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    line-height: 100px;
+}
+.container {
+    padding-top: 15px ;
+}
+.slick-arrow:before {
+    color:#000000 !important;
+}
+#blog-slider {
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+}
+.blog-list {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.blog-element {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    height: 140px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.text-block {
+    text-align: justify;
+}
+.date-block {
+    padding-top: 10px;
+    width: 150px;
+    float: right;
+    font-size: 14px;
+    text-align: right;
+}
+.comments-number {
+    padding-top: 10px;
+    font-size: 14px;
+}
+.comment {
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+.comments {
+    padding-top: 15px;
+}
+#post-form textarea,
+#post-form input,
+#comment-form textarea,
+#comment-form input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.slider-element {
+    text-align: justify;
+}
+
+.slide-name {
+    display: block;
+    color: #1b1c20;
+    font-size: 30px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Oswald, Helvetica, Arial, sans-serif;
+    outline: none;
+}
+
+.slide-name:hover {
+    color: #7b7d04;
+    text-decoration: none;
+    outline: none;
+}
+.slide-text {
+    color: #1b1c20;
+    font-family: Lora,Georgia,"Times New Roman",Times,serif;
+    font-size: 18px;
+}
+
+.post-name {
+    display: block;
+    color: #2f2f2f;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Oswald, Helvetica, Arial, sans-serif;
+    outline: none;
+}
+
+.post-name:hover {
+    color: #7b7d04;
+    text-decoration: none;
+    outline: none;
+}
+
+.publish-date,
+.list .comments-number {
+    padding-top: 10px;
+}
+
+.author-name {
+    padding: 10px 20px 0 0;
+    float: right;
+}
+
+.bottom-block {
+    font-size: 14px;
+}
+.slick-next:before {
+    content: '\2192' !important;
+}
+
+.slick-prev:before {
+    content: '\2190' !important;
+}
+.detail-author {
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 5px;
+    text-align: right;
+}
+
+.comment-author {
+    font-weight: bold;
+}

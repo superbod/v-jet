@@ -1,0 +1,15 @@
+1. PHP7
+2. MYSQL
+3. Я использовал xammp в связке с heidiSQL, по этому опишу инструкцию для них
+4. Скачать и установить xammp(последнюю версию)
+5. Загрузить проект, в любую удобную вам деррикторию
+6. В файле xampp\apache\conf\extra добавить запись, и заменить DocumentRoot на путь в проекту и ServerName на ваше имея, которое вы укажете в файле hosts
+<VirtualHost *:80>
+    DocumentRoot "C:/Progects/v-jet/web"
+    ServerName dev.v-jet.ua
+    <Directory "C:/Progects/v-jet/web">
+       AllowOverride All
+		Options FollowSymLinks
+		Require all granted
+    </Directory>
+</VirtualHost>
